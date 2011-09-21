@@ -1,7 +1,7 @@
 # From Ruby to CoffeeScript
 
 |_. Ruby |_. CoffeeScript |
-| x \|\|= 2     | x ?= 2 |
+| `x ||= 2`   | x ?= 2 |
 | def fct(*x) | (x...) -> |
 | *[1, 2, 3]  | [1, 2, 3]... |
 
