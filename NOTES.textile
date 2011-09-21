@@ -1,0 +1,12 @@
+h3. From Ruby to CoffeeScript
+
+|_. Ruby |_. CoffeeScript |
+| x ||= 2 | x ?= 2 |
+| def fct(*x) | (x...) -> |
+| *[1, 2, 3] | [1, 2, 3]... |
+
+h3. CoffeeScript
+
+Setter
+|_. Code |_. Explanation |
+| a = (@x) -> | a = (x) -> @x = x |

@@ -1,0 +1,3 @@
+h3. CoffeeScript - Accelerated JavaScript Development
+
+p I'm currently reading that book. It is very interesting until now. This git project will be used to save the exercices that I'll make and save the notes that I take.
