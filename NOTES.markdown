@@ -18,6 +18,14 @@
     <td>[1, 2, 3]...</td>
   </tr>
   <tr>
+    <td>def foo; return 5; end</td>
+    <td>foo = -> return 5</td>
+  </tr>
+  <tr>
+    <td>def foo; 5; end</td>
+    <td>foo = -> 5</td>
+  </tr>
+  <tr>
     <td>hash.each{|key, value| }</td>
     <td>for key, value of hash</td>
   </tr>
@@ -30,8 +38,8 @@
     <td>a = (i + 1 for i in array)</td>
   </tr>
   <tr>
-    <td>array.select{|i| i > 1}</td>
-    <td>for i in array when i > 1</td>
+    <td>a = array.select{|i| i > 1}</td>
+    <td>a = for i in array when i > 1</td>
   </tr>
   <tr>
     <td>if array.include?(value)</td>
@@ -48,6 +56,30 @@
   <tr>
     <td>array.dup</td>
     <td>array[0..]</td>
+  </tr>
+  </tr>
+    <td>[a,b] = [b,a]</td>
+    <td>[a,b] = [b,a]</td>
+  </tr>
+  </tr>
+    <td>a,b,c = 1,2,3</td>
+    <td>[a,b,c] = [1,2,3]</td>
+  </tr>
+  </tr>
+    <td>class Foo</td>
+    <td>class Foo</td>
+  </tr>
+  </tr>
+    <td>class Foo < Bar</td>
+    <td>class Foo extends Bar</td>
+  </tr>
+  </tr>
+    <td>def child_fct; super; end</td>
+    <td>child_fct: -> super()</td>
+  </tr>
+  </tr>
+    <td>def child_fct(a,c,b); super(a,b,c); end</td>
+    <td>child_fct(a,c,b): -> super(a,b,c)</td>
   </tr>
 </table>
 
