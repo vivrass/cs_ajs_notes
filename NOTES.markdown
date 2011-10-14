@@ -10,6 +10,11 @@
     <td>x ?= 2</td>
   </tr>
   <tr>
+    <td>x ? "true" : "false"</td>
+    <td>if x then "true" else "false"</td>
+  </tr>
+  <tr>
+  <tr>
     <td>def fct(*x)</td>
     <td>(x...) -></td>
   </tr>
