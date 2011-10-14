@@ -39,5 +39,11 @@ console.log "#{run(a_fct, "arg1", "arg2", "arg3")}"
 console.log "#{runOfficial(a_fct, "arg1", "arg2", "arg3")}"
 
 console.log "========================================"
-console.log "Question 3"
+console.log "Question 7"
+
+x = true
+showAnswer = (x = x) ->
+  console.log if x then 'It works!' else 'Nope.'
+showAnswer()
+# Doesn't work because x is not know in the method context
 

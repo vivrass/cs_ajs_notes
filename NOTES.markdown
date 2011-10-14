@@ -30,6 +30,10 @@
     <td>a = (i + 1 for i in array)</td>
   </tr>
   <tr>
+    <td>array.select{|i| i > 1}</td>
+    <td>for i in array when i > 1</td>
+  </tr>
+  <tr>
     <td>if array.include?(value)</td>
     <td>if value in array</td>
   </tr>
@@ -40,6 +44,10 @@
   <tr>
     <td>string[1..3], string[1..-1]</td>
     <td>string[1..3], string[1..-1]</td>
+  </tr>
+  <tr>
+    <td>array.dup</td>
+    <td>array[0..]</td>
   </tr>
 </table>
 
