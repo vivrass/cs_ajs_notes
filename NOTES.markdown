@@ -6,6 +6,10 @@
     <th>CoffeeScript</th>
   </tr>
   <tr>
+    <td>"foo #{bar}"</td>
+    <td>"foo #{bar}"</td>
+  </tr>
+  <tr>
     <td>x ||= 2</td>
     <td>x ?= 2</td>
   </tr>
