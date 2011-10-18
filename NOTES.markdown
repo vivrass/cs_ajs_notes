@@ -66,27 +66,27 @@
     <td>array.dup</td>
     <td>array[0..]</td>
   </tr>
-  </tr>
+  <tr>
     <td>[a,b] = [b,a]</td>
     <td>[a,b] = [b,a]</td>
   </tr>
-  </tr>
+  <tr>
     <td>a,b,c = 1,2,3</td>
     <td>[a,b,c] = [1,2,3]</td>
   </tr>
-  </tr>
+  <tr>
     <td>class Foo</td>
     <td>class Foo</td>
   </tr>
-  </tr>
+  <tr>
     <td>class Foo < Bar</td>
     <td>class Foo extends Bar</td>
   </tr>
-  </tr>
+  <tr>
     <td>def child_fct; super; end</td>
     <td>child_fct: -> super()</td>
   </tr>
-  </tr>
+  <tr>
     <td>def child_fct(a,c,b); super(a,b,c); end</td>
     <td>child_fct(a,c,b): -> super(a,b,c)</td>
   </tr>

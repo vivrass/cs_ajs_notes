@@ -1,0 +1,27 @@
+1. Prepare windows : 
+h = {a: 1, b: 2, c: 3}
+a = [1, 2, 3]
+
+2. Order
+"#{}"
+Return values like in ruby (def)
+||=
+? :
+each hash, array
+map
+select
+include?
+[1..-2]
+[1...-3]
+array.dup
+[a,b] = [b,a]
+
+def c(a,b,c); puts "#{a} #{b} #{c}"; end
+c(*a)
+def d(a); c(*a); end
+c = (a,b,c) -> console.log "#{a} #{b} #{c}"
+c(a...)
+d = (a) -> console.log c(a...)
+
+[d,e,f] = [1,2,3]
+
