@@ -79,7 +79,7 @@
     <td>class Foo</td>
   </tr>
   <tr>
-    <td>class Foo < Bar</td>
+    <td>class Foo &lt; Bar</td>
     <td>class Foo extends Bar</td>
   </tr>
   <tr>
